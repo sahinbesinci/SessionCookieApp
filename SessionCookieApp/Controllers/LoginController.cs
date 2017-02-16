@@ -13,6 +13,7 @@ namespace SessionCookieApp.Controllers
     {
         authenticationuserwithoutroleContext db = new authenticationuserwithoutroleContext();
 
+
         [AllowAnonymous]
         public ActionResult Login()
         {
